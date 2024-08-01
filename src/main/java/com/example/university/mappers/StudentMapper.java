@@ -7,7 +7,6 @@ import org.mapstruct.Mapping;
 
 //@Mapper(config = CentralConfig.class)
 @Mapper(componentModel = "spring")
-
 public interface StudentMapper extends MainMapper<StudentDTO, Student> {
 
     @Mapping(target = "program_id", source = "program.id")

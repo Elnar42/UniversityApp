@@ -13,7 +13,6 @@ import java.util.List;
 @Getter
 @AllArgsConstructor
 public class CourseSectionDTO {
-
     private Long id;
 
     @NotNull
